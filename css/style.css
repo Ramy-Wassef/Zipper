@@ -1,0 +1,213 @@
+/* general */
+.container{
+    width: 85%;
+    margin: auto;
+}
+body{
+    font-family: sans-serif;
+}
+
+/* zipper */
+
+.zipper{
+    background-image: url(../Images/image-01.jpg);
+background-size: cover;
+    height: 100%;
+}
+.nav{
+    text-align: center;
+}
+.nav ul{
+    list-style: none;
+    margin-top: 0
+}
+.nav li{
+    display: inline-block;
+    color: white;
+    padding: 20px;
+    margin-top: 2%;
+}
+.center{
+    text-align: center;
+    color: white;
+    margin-top: 20%;
+}
+/*hourses*/
+.hourses{
+    background-image: url(../Images/image-02.jpg);
+    background-size: cover;
+    height: 100%;
+    overflow: hidden; 
+}
+.hpar{
+    width: 30%;
+    margin-left: 60%;
+    background-color: black;
+    color: white;
+    height: 100%;
+    opacity: 0.5;
+    padding-top: 5%;
+}
+.hourses h2{
+    margin-top: 0;
+    color: yellow;
+    padding: 5%;
+}
+.hourses p{
+    padding: 5%;
+}
+/*services*/
+.serv{
+    background-image: url(../Images/image-03.jpg);
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+}
+.spar{
+    height: 100%;
+    margin-left: 10%;
+    background-color: black;
+    opacity: 0.5;
+    color: white;
+    width: 25%;
+    padding: 2%;
+    padding-top: 5%;
+}
+.spar h2{
+    margin-top: 0;
+    color: yellow;
+}
+.spar p{
+    padding-top: 7%;
+}
+/*testimonials*/
+.test{
+    background-image: url(../Images/image-04.jpg);
+    background-size: cover;
+    height: auto;
+    text-align: center;
+    overflow: hidden;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.test h2{
+    margin-bottom: 5%;
+}
+.t1,.t2,.t3{
+    width: 22%;
+    float: left;
+    background-color: black;
+    opacity: 0.5;
+    color: white;
+    padding: 1%;
+    box-sizing: border-box;
+}
+.t1,.t2{
+    margin-right: 7%;
+}
+.t1{
+    margin-left: 10%;
+}
+/*contact*/
+.cont{
+    background-image: url(../Images/image-05.jpg);
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+   position: relative;
+}
+.form{
+    background-color: black;
+    opacity: 0.5;
+    color: white;
+    width: 23%;
+    float: right;
+    margin-right: 10%;
+    height: 100%;
+    padding: 3%;
+}
+.form h2{
+    color: yellow;
+}
+.form input{
+    display: block;
+    margin-top: 5%;
+    width: 100%;
+    border-radius: 0;
+    border: 0;
+    height: 5%;
+}
+.form input[type=button]{
+    width: 35%;
+    height: 7%;
+    cursor: pointer;
+}
+.form textarea{
+    display: block;
+    margin-top: 5%;
+    width: 100%;
+
+}
+.copy{
+    float: left;
+background-color: black;
+opacity: 0.5;
+    color: white;
+    padding: 1%;
+    position: absolute;
+    bottom: 0;
+}
+/*media query*/
+
+@media(max-width:685px){
+    .nav li{
+        display: block;
+    }
+}
+@media(max-width:707px){
+    .hpar{
+        width: 80%;
+        margin: auto;
+    }
+}
+@media(max-width:849px){
+    .spar{
+        width: 60%;
+        margin: auto;
+    }
+}
+@media(max-width:757px){
+    .t1,.t2,.t3{
+        width: 30%;
+    }
+    .t3{
+        margin-top: 7%;
+        margin-left: 10%;
+    }
+}
+@media(max-width:535px){
+    .t1,.t2,.t3{
+        width: 70%;
+        margin-left: 15%;
+        margin-top: 7%;
+    }
+}
+@media(max-width:742px){
+    .form{
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+        height: 80%;
+        float: none;
+        
+    }   
+    .form input{
+        height: 7%;
+    }
+    .copy{
+        width: 100%;
+        float: none;
+        height: auto;
+            
+    }
+}
